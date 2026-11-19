@@ -1,0 +1,25 @@
+{
+  "name": "web-qa-practice",
+  "version": "1.0.0",
+  "description": "Build acceptance tests for OWASP Juice Shop, automated with Playwright AI agents",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellnika/web-qa-practice.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ellnika/web-qa-practice/issues"
+  },
+  "homepage": "https://github.com/ellnika/web-qa-practice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  },
+  "private": true
+}
